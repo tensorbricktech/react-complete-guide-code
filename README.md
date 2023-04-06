@@ -1,10 +1,9 @@
 # Optimizing React code for speed can involve several techniques, here are a few that you can consider:
 
-**My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }
 
-Reduce the number of renders: Each time a component is re-rendered, it takes some processing time. Make sure you are not re-rendering unnecessarily. You can use React.memo() or shouldComponentUpdate() to optimize this.
+<span style="color:green">Reduce the number of renders:</span> Each time a component is re-rendered, it takes some processing time. Make sure you are not re-rendering unnecessarily. You can use React.memo() or shouldComponentUpdate() to optimize this.
 
-Use React's built-in Profiler: React's profiler can help you identify performance bottlenecks in your application. It can tell you which components are taking the most time to render and how many times they're being rendered. You can use this information to optimize your code.
+<span style="color:green">Use React's built-in Profiler:</span> React's profiler can help you identify performance bottlenecks in your application. It can tell you which components are taking the most time to render and how many times they're being rendered. You can use this information to optimize your code.
 
 Use a virtualized list: If you're rendering a long list of items, consider using a virtualized list. A virtualized list only renders the items that are currently visible on the screen, which can greatly improve performance.
 
